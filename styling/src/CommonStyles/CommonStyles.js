@@ -76,3 +76,23 @@ export const Link = styled.a`
     color: #8b5c7e;
   }
 `;
+
+export const Select = styled.select`
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  color: #a05c7b;
+  font-size: 16px;
+  font-weight: bold;
+  appearance: none;
+
+  option {
+    background-color: #a6f4dc;
+    color: #05668d;
+    font-weight: bold;
+  }
+`;
