@@ -96,3 +96,38 @@ export const Select = styled.select`
     font-weight: bold;
   }
 `;
+
+export const Header = styled.header`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #05668d;
+`;
+
+export const Logo = styled.h1`
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px #944654;
+`;
+
+export const ProfileIcon = styled.img`
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 20px;
+`;
+
+export const LogOutButton = styled.button`
+  width: 100px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #05668d;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+`;
